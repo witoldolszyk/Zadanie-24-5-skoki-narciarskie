@@ -1,0 +1,18 @@
+{
+  "name": "ski-jump",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "test": "mocha test/calculateDistancePoints.test.js test/calculateStylePoints.test.js test/calculateTotalPoints.test.js",
+     "test:Tot": "mocha -w test/calculateTotalPoints.test.js",
+     "test:Dist": "mocha -w test/calculateDistancePoints.test.js",
+     "test:Styl": "mocha -w test/calculateStylePoints.test.js"
+   },
+  "keywords": [],
+  "author": "Witold Olszyk",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.0.5"
+  }
+}
